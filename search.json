@@ -1,16 +1,16 @@
 [
   {
-    "objectID": "projects/index.html",
-    "href": "projects/index.html",
-    "title": "Projects",
-    "section": "",
-    "text": "No matching items"
-  },
-  {
     "objectID": "index.html",
     "href": "index.html",
     "title": "Ying Kid Cheung",
     "section": "",
     "text": "Welcome to my personal website! This website is currently under construction. Meanwhile, you could visit the following accounts:"
+  },
+  {
+    "objectID": "projects/index.html",
+    "href": "projects/index.html",
+    "title": "Projects",
+    "section": "",
+    "text": "No matching items"
   }
 ]
