@@ -1,0 +1,100 @@
+[
+  {
+    "objectID": "about.html",
+    "href": "about.html",
+    "title": "Over mij",
+    "section": "",
+    "text": "Hallo! Ik ben Ying Kid Cheung, een data engineer uit Rotterdam met een passie voor het bouwen van schaalbare data pipelines en real-time monitoring systemen."
+  },
+  {
+    "objectID": "about.html#achtergrond",
+    "href": "about.html#achtergrond",
+    "title": "Over mij",
+    "section": "Achtergrond",
+    "text": "Achtergrond\nMet een Master in Econometrics and Management Science van de Erasmus Universiteit heb ik een sterke analytische en technische basis. Mijn combinatie van econometrische kennis, software engineering en praktische data engineering ervaring stelt me in staat om complexe data-vraagstukken op te lossen."
+  },
+  {
+    "objectID": "about.html#contact",
+    "href": "about.html#contact",
+    "title": "Over mij",
+    "section": "Contact",
+    "text": "Contact\nHeb je een vraag of wil je samenwerken? Deze site bevat bewust geen direct contactformulier; je kunt me bereiken via LinkedIn of GitHub links in de navigatie."
+  },
+  {
+    "objectID": "index.html",
+    "href": "index.html",
+    "title": "Ying Kid Cheung",
+    "section": "",
+    "text": "Data science\n\nVoorspellende modellen, experimenten en statistische onderbouwing voor betere beslissingen.\n\n\n\n\nData engineering\n\nSchaalbare datastromen, robuuste data-architectuur en betrouwbare levering van data.\n\n\n\n\nData analyse\n\nComplexe data vertalen naar duidelijke inzichten, rapportages en stuurinformatie."
+  },
+  {
+    "objectID": "index.html#wat-ik-doe",
+    "href": "index.html#wat-ik-doe",
+    "title": "Ying Kid Cheung",
+    "section": "",
+    "text": "Data science\n\nVoorspellende modellen, experimenten en statistische onderbouwing voor betere beslissingen.\n\n\n\n\nData engineering\n\nSchaalbare datastromen, robuuste data-architectuur en betrouwbare levering van data.\n\n\n\n\nData analyse\n\nComplexe data vertalen naar duidelijke inzichten, rapportages en stuurinformatie."
+  },
+  {
+    "objectID": "projects/index.html",
+    "href": "projects/index.html",
+    "title": "Projects",
+    "section": "",
+    "text": "No matching items"
+  },
+  {
+    "objectID": "build.html",
+    "href": "build.html",
+    "title": "Hoe deze website is gebouwd",
+    "section": "",
+    "text": "Deze website is een portfolio-site gebouwd met Quarto, een open-source tool voor het maken van wetenschappelijke en technische publicaties. Het combineert Markdown, HTML en CSS voor een professionele uitstraling.\n\n\n\nResponsive design: Werkt goed op desktop, tablet en mobiel\nSnelle laadtijden: Statische site zonder server-side processing\nSEO-vriendelijk: Geoptimaliseerd voor zoekmachines\nSocial sharing: Met Open Graph meta tags voor mooie previews\nAutomatische deployment: Via GitHub Actions naar GitHub Pages"
+  },
+  {
+    "objectID": "build.html#overzicht-van-het-project",
+    "href": "build.html#overzicht-van-het-project",
+    "title": "Hoe deze website is gebouwd",
+    "section": "",
+    "text": "Deze website is een portfolio-site gebouwd met Quarto, een open-source tool voor het maken van wetenschappelijke en technische publicaties. Het combineert Markdown, HTML en CSS voor een professionele uitstraling.\n\n\n\nResponsive design: Werkt goed op desktop, tablet en mobiel\nSnelle laadtijden: Statische site zonder server-side processing\nSEO-vriendelijk: Geoptimaliseerd voor zoekmachines\nSocial sharing: Met Open Graph meta tags voor mooie previews\nAutomatische deployment: Via GitHub Actions naar GitHub Pages"
+  },
+  {
+    "objectID": "build.html#gebruikte-technologieën",
+    "href": "build.html#gebruikte-technologieën",
+    "title": "Hoe deze website is gebouwd",
+    "section": "Gebruikte technologieën",
+    "text": "Gebruikte technologieën\n\nCore tools:\n\nQuarto: Voor het genereren van de statische site\nMarkdown: Voor het schrijven van content\nHTML/CSS: Voor custom layouts en styling\nBootstrap Flatly theme: Voor een professionele basisstijl\n\n\n\nOntwikkelomgeving:\n\nVS Code: Als code editor\nGit: Voor versiebeheer\nGitHub: Voor hosting van de repository en Pages\n\n\n\nDeployment:\n\nGitHub Actions: Voor geautomatiseerde builds\nGitHub Pages: Voor hosting van de website"
+  },
+  {
+    "objectID": "build.html#stap-voor-stap-bouwproces",
+    "href": "build.html#stap-voor-stap-bouwproces",
+    "title": "Hoe deze website is gebouwd",
+    "section": "Stap-voor-stap bouwproces",
+    "text": "Stap-voor-stap bouwproces\n\n1. Project setup\n\nInitiële Quarto project structuur aangemaakt\nBasis configuratie in _quarto.yml ingesteld\nFlatly Bootstrap theme geselecteerd\n\n\n\n2. Content creatie\n\nHomepage (index.qmd) ontworpen met custom HTML blokken\nAbout pagina (about.qmd) gemaakt met persoonlijke informatie\nSkills sectie toegevoegd met interactieve hover effecten\n\n\n\n3. Styling en design\n\nCustom CSS in styles.css geschreven\nResponsive grid layouts geïmplementeerd\nHover animaties en transitions toegevoegd\nQuarto-specifieke elementen verborgen voor clean design\n\n\n\n4. Functionaliteit toevoegen\n\nContact links geïntegreerd\nSocial sharing meta tags toegevoegd\nCookie consent banner geïnstalleerd\n\n\n\n5. Testing en debugging\n\nLokale previews getest met quarto preview\nHTML rendering problemen opgelost\nCSS compatibiliteit gecontroleerd\n\n\n\n6. Deployment setup\n\nGitHub Actions workflow aangemaakt\nPermissions geconfigureerd voor automatische deployment\nSite succesvol gepubliceerd naar GitHub Pages"
+  },
+  {
+    "objectID": "build.html#uitdagingen-en-oplossingen",
+    "href": "build.html#uitdagingen-en-oplossingen",
+    "title": "Hoe deze website is gebouwd",
+    "section": "Uitdagingen en oplossingen",
+    "text": "Uitdagingen en oplossingen\n\nUitdaging 1: HTML rendering op GitHub Pages\nProbleem: GitHub Pages probeerde de bronbestanden te verwerken als Jekyll, wat leidde tot verkeerde HTML rendering.\nOplossing: Een GitHub Actions workflow geïmplementeerd die de site eerst lokaal rendert naar de _site folder en deze vervolgens deployt.\n\n\nUitdaging 2: CSS niet geladen\nProbleem: Custom styles werden niet toegepast op de live site.\nOplossing: Geïdentificeerd dat de deployment workflow alleen de gerenderde bestanden uploadde, maar de CSS werd correct geïncludeerd via Quarto’s build proces.\n\n\nUitdaging 3: Deployment permissions\nProbleem: 403 fout bij deployment vanwege ontbrekende schrijftoegang.\nOplossing: permissions blok toegevoegd aan de GitHub Actions workflow voor contents: write en pages: write.\n\n\nUitdaging 4: Social sharing previews\nProbleem: Links naar de site toonden geen mooie previews op WhatsApp en andere platformen.\nOplossing: Open Graph meta tags toegevoegd aan de frontmatter van index.qmd."
+  },
+  {
+    "objectID": "build.html#bestanden-structuur",
+    "href": "build.html#bestanden-structuur",
+    "title": "Hoe deze website is gebouwd",
+    "section": "Bestanden structuur",
+    "text": "Bestanden structuur\nquarto-website/\n├── _quarto.yml          # Site configuratie\n├── index.qmd            # Homepage\n├── about.qmd            # Over mij pagina\n├── styles.css           # Custom styling\n├── .github/\n│   └── workflows/\n│       └── quarto.yml   # Deployment workflow\n└── _site/               # Gegenereerde site (niet in repo)"
+  },
+  {
+    "objectID": "build.html#leerpunten",
+    "href": "build.html#leerpunten",
+    "title": "Hoe deze website is gebouwd",
+    "section": "Leerpunten",
+    "text": "Leerpunten\nTijdens het bouwproces heb ik veel geleerd over: - Het werken met Quarto voor statische sites - Het combineren van Markdown met custom HTML/CSS - Het automatiseren van deployment met GitHub Actions - Het optimaliseren van websites voor social sharing - Het oplossen van deployment problemen op GitHub Pages"
+  },
+  {
+    "objectID": "build.html#bronnen-en-inspiratie",
+    "href": "build.html#bronnen-en-inspiratie",
+    "title": "Hoe deze website is gebouwd",
+    "section": "Bronnen en inspiratie",
+    "text": "Bronnen en inspiratie\nDeze website is geïnspireerd door moderne portfolio designs en volgt de Uncodixfy principes voor clean, functioneel design. Voor meer informatie over Quarto, bekijk de officiële documentatie.\n\nDeze pagina is gemaakt om transparantie te bieden over het ontwikkelproces. Als je vragen hebt over specifieke aspecten, neem gerust contact op."
+  }
+]
