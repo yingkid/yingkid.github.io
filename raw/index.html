@@ -1,0 +1,19 @@
+<!DOCTYPE html><html lang="nl"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width, initial-scale=1"><title>Ruwe data | Ying Kid Cheung</title><meta name="description" content="De ruwe data van de live kaart op een kaart: meetpunten, treinen, incidenten en wegvakken."><link rel="icon" type="image/svg+xml" href="/favicon.svg"><meta name="theme-color" content="#F1F3F2" media="(prefers-color-scheme: light)"><meta name="theme-color" content="#14202C" media="(prefers-color-scheme: dark)"><script>
+			// Light or dark as chosen with the button on the live map (src/theme.ts), before anything is painted
+			try {
+				var theme = localStorage.getItem('theme');
+				if (theme === 'light' || theme === 'dark') {
+					document.documentElement.dataset.theme = theme;
+					document.querySelectorAll('meta[name="theme-color"]').forEach(function (meta) {
+						meta.content = theme === 'dark' ? '#14202C' : '#F1F3F2';
+					});
+				}
+			} catch (e) {}
+			// Lets CSS hide the route until Line.astro animates it; shows it anyway if that script never runs.
+			document.documentElement.classList.add('js');
+			// The route line gets one of two Rotterdam metro colour pairs: red and green (53%), or dark blue and yellow.
+			if (Math.random() >= 0.53) document.documentElement.dataset.line = 'blue-yellow';
+			setTimeout(function () {
+				if (!window.lineReady) document.documentElement.classList.remove('js');
+			}, 3000);
+		</script><meta name="robots" content="noindex, nofollow, noarchive"><link rel="stylesheet" href="/_astro/maplibre-gl.Brgw4aED.css"><link rel="stylesheet" href="/_astro/Base.DT3oX2jX.css"><link rel="stylesheet" href="/_astro/raw.BzyLcYEe.css"></head><body><div class="raw"><header class="raw-head"><h1>Ruwe data</h1><p>Wat de bronnen nu leveren, zonder verwerking. Klik op een punt voor de gegevens.</p></header><div class="raw-map" aria-label="Kaart met meetpunten, wegvakken, treinen en incidenten"></div><details class="raw-panel" open><summary>Status en legenda</summary><h2>Lagen</h2><fieldset class="raw-layers" aria-label="Lagen op de kaart"><label><input type="checkbox" value="sites" checked> Meetpunten</label><label><input type="checkbox" value="trains" checked> Treinen</label><label><input type="checkbox" value="incidents" checked> Incidenten</label></fieldset><h2>Bronnen</h2><ul class="raw-sources"></ul><h2>Meetpunten</h2><label class="raw-mode">Kleur op<select><option value="status">Meetstatus</option><option value="flow">Intensiteit</option><option value="speed">Snelheid</option></select></label><ul class="raw-keys"></ul><p class="raw-status" role="status"></p></details></div><script type="module" src="/_astro/RawMap.astro_astro_type_script_index_0_lang.Drvl3Fui.js"></script></body></html>
