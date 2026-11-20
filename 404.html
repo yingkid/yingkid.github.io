@@ -1,0 +1,19 @@
+<!DOCTYPE html><html lang="nl"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width, initial-scale=1"><title>Pagina niet gevonden | Ying Kid Cheung</title><meta name="description" content="Deze pagina bestaat niet."><link rel="icon" type="image/svg+xml" href="/favicon.svg"><meta name="theme-color" content="#F1F3F2" media="(prefers-color-scheme: light)"><meta name="theme-color" content="#14202C" media="(prefers-color-scheme: dark)"><script>
+			// Light or dark as chosen with the button on the live map (src/theme.ts), before anything is painted
+			try {
+				var theme = localStorage.getItem('theme');
+				if (theme === 'light' || theme === 'dark') {
+					document.documentElement.dataset.theme = theme;
+					document.querySelectorAll('meta[name="theme-color"]').forEach(function (meta) {
+						meta.content = theme === 'dark' ? '#14202C' : '#F1F3F2';
+					});
+				}
+			} catch (e) {}
+			// Lets CSS hide the route until Line.astro animates it; shows it anyway if that script never runs.
+			document.documentElement.classList.add('js');
+			// The route line gets one of two Rotterdam metro colour pairs: red and green (53%), or dark blue and yellow.
+			if (Math.random() >= 0.53) document.documentElement.dataset.line = 'blue-yellow';
+			setTimeout(function () {
+				if (!window.lineReady) document.documentElement.classList.remove('js');
+			}, 3000);
+		</script><meta name="robots" content="noindex, nofollow, noarchive"><link rel="stylesheet" href="/_astro/Base.DT3oX2jX.css"></head><body><main class="page"><header class="intro"><h1 class="project-title">Deze pagina bestaat niet</h1><p class="lede">De link is misschien verouderd of niet helemaal goed overgenomen.</p></header><div class="actions"><a class="button button--primary" href="/">Naar de homepage</a></div><footer class="footer"><p class="footer-credit">Kaart © <a href="https://www.openstreetmap.org/copyright">OpenStreetMap-bijdragers</a></p></footer></main></body></html>
